@@ -9,3 +9,16 @@
 // fs.writeFileSync('./txt/input.txt',textOut);
 
 // console.log('File written');
+
+
+// Non-Blocking,asynchronous code
+
+// fs.readFile('./txt/startsss.txt','utf-8',(err,data1) => {
+
+//     if(err) return console.log('ERROR! ');
+
+//     fs.readFile(`./txt/${data1}.txt`,'utf-8',(err,data2) => {
+//         console.log(data2);
+//     });
+// });
+// console.log('reading file..');
